@@ -302,7 +302,7 @@
       </div>
       <!--section-title end-->
       <div class="isotope-filters isotope-filters-horizontal">
-        <button class="isotope-filters-toggle button button-sm button-icon button-icon-right button-blue-8" data-custom-toggle=".gallery-filters-list" data-custom-toggle-disable-on-blur="true" data-custom-toggle-hide-on-blur="true"><span class="icon mdi mdi-chevron-down"></span>Filtrosr</button>
+        <button class="isotope-filters-toggle button button-sm button-icon button-icon-right button-blue-8" data-custom-toggle=".gallery-filters-list" data-custom-toggle-disable-on-blur="true" data-custom-toggle-hide-on-blur="true"><span class="icon mdi mdi-chevron-down"></span>Filtros</button>
         <ul class="isotope-filters-list gallery-filters-list">
           <li><a class="active" href="#" data-isotope-filter="*">Todo</a></li>
           <li><a href="#" data-isotope-filter="Type 1">Construcción</a></li>
@@ -500,19 +500,19 @@
           </article>
           <form class="vanguard-form vanguard-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="#">
             <div class="form-wrap wow fadeInRight">
-              <input class="form-input" id="contact-name-6" type="text" name="name" data-constraints="@Required">
+              <input class="form-input" id="nombre" type="text" name="name" data-constraints="@Required">
               <label class="form-label" for="contact-name-6">Nombre*</label>
             </div>
             <div class="form-wrap wow fadeInRight" data-wow-delay=".05s">
-              <input class="form-input" id="contact-email-6" type="email" name="email" data-constraints="@Email @Required">
+              <input class="form-input" id="email" type="email" name="email" data-constraints="@Email @Required">
               <label class="form-label" for="contact-email-6">E-mail*</label>
             </div>
             
             <div class="form-wrap wow fadeInRight" data-wow-delay=".2s">
-              <input class="form-input" id="contact-phone-6" type="text" name="phone" data-constraints="@Numeric">
-              <label class="form-label" for="contact-phone-6">Teléfono</label>
+              <input class="form-input" id="telefono" type="text" name="phone" data-constraints="@Numeric">
+              <label class="form-label" for="contact-phone-6">Teléfono*</label>
             </div>
-            <button class="button button-icon button-icon-right button-blue-8 wow fadeInRight" type="submit" data-wow-delay=".25s"><span class="icon fa fa-chevron-right"></span>Enviar</button>
+            <button  id="enviarCorreo" class="button button-icon button-icon-right button-blue-8 wow fadeInRight" type="submit" data-wow-delay=".25s"><span class="icon fa fa-chevron-right"></span>Enviar</button>
           </form>
         </div>
       </div>
@@ -659,5 +659,19 @@
     }
 </script>
 <script src="js/script.js"></script>
+<script>
+  document.getElementById("enviarCorreo").addEventListener("click", function() {
+    var nombre = document.getElementById("nombre").value;
+    var email = document.getElementById("email").value;
+    var telefono = document.getElementById("telefono").value;
+    
+    var asunto = "Consulta desde tu sitio web";
+    var cuerpoMensaje = "Nombre: " + nombre + "\nEmail: " + email + "\nTeléfono: " + telefono;
+    
+    var mailtoLink = "mailto: sureserviciosindustriales@gmail.com" + "?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpoMensaje);
+    
+    window.open(mailtoLink);
+  });
+  </script>
 </body>
 </html>
