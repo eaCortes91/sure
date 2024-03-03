@@ -1413,7 +1413,7 @@ p+.quote-classic{margin-top:40px}
 /*********************************************************
 					   footer
 **********************************************************/
-.footer-creative{position:relative; overflow:hidden; text-align:center; background:#031e2b; z-index:1}
+.footer-creative{position:relative; overflow:hidden; text-align:center; background:#00186c; z-index:1}
 .footer-creative *+hr{margin-top:30px}
 .footer-creative hr+*{margin-top:30px}
 .footer-creative .brand+p{margin-top:30px}

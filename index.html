@@ -305,10 +305,10 @@
         <button class="isotope-filters-toggle button button-sm button-icon button-icon-right button-blue-8" data-custom-toggle=".gallery-filters-list" data-custom-toggle-disable-on-blur="true" data-custom-toggle-hide-on-blur="true"><span class="icon mdi mdi-chevron-down"></span>Filtros</button>
         <ul class="isotope-filters-list gallery-filters-list">
           <li><a class="active" href="#" data-isotope-filter="*">Todo</a></li>
-          <li><a href="#" data-isotope-filter="Type 1">Construcción</a></li>
-          <li><a href="#" data-isotope-filter="Type 2">Mineria</a></li>
-          <li><a href="#" data-isotope-filter="Type 3">Transporte</a></li>
-          <li><a href="#" data-isotope-filter="Type 4">Comercializadora</a></li>
+          <li><a href="#" onclick="closeOpen('1')"  data-isotope-filter="Type 1">Construcción</a></li>
+          <li><a href="#" onclick="closeOpen('2')"  data-isotope-filter="Type 2">Mineria</a></li>
+          <li><a href="#" onclick="closeOpen('3')"  data-isotope-filter="Type 3">Transporte</a></li>
+          <li><a href="#" onclick="closeOpen('4')"  data-isotope-filter="Type 4">Comercializadora</a></li>
         </ul>
       </div>
     </div>
@@ -327,9 +327,9 @@
         <div class="col-sm-6 col-lg-3 isotope-item" data-filter="Type 2"> 
           <!-- Thumbnail Modern-->
           <article class="thumbnail thumbnail-modern block-1 hoverdir-item" data-hoverdir-target=".thumbnail-modern-caption">
-            <div class="thumbnail-modern-figure"><img src="images/b1.png" alt="" /></div>
+            <div class="thumbnail-modern-figure"><img src="images/b18.png" alt="" /></div>
             <div class="thumbnail-modern-caption">
-              <h6 class="thumbnail-modern-title">VENTA DE PARTES E IMPLEMENTOS PARA TRACTOCAMIONES.</h6>
+              <h6 class="thumbnail-modern-title">VENTA DE BALASTRO Y OTROS MINERALES.</h6>
               <div class="link-wrapp"> </div>
             </div>
           </article>
@@ -367,14 +367,14 @@
           <article class="thumbnail thumbnail-modern block-1 hoverdir-item" data-hoverdir-target=".thumbnail-modern-caption">
             <div class="thumbnail-modern-figure"><img src="images/b7.png" alt="" /></div>
             <div class="thumbnail-modern-caption">
-              <h6 class="thumbnail-modern-title">CONSTRUCCIÓN DE TALUD, ARMADO Y COLADO DE REGISTROS Y VIALIDADES EN NANCHITAL, VERACRUZ</h6>
+              <h6 class="thumbnail-modern-title">EXTRACCIÓN DE DIFERENTES TIPOS DE MINERALES.</h6>
             </div>
           </article>
         </div>
         <div class="col-sm-6 col-lg-3 isotope-item" data-filter="Type 2"> 
           <!-- Thumbnail Modern-->
           <article class="thumbnail thumbnail-modern block-1 hoverdir-item" data-hoverdir-target=".thumbnail-modern-caption">
-            <div class="thumbnail-modern-figure"><img src="images/b8.png" alt="" /></div>
+            <div class="thumbnail-modern-figure"><img src="images/b19.png" alt="" /></div>
             <div class="thumbnail-modern-caption">
               <h6 class="thumbnail-modern-title">VENTA DE PRODUCTO Y SUBPRODUCTO DE BALASTO.</h6>
             </div>
@@ -412,10 +412,9 @@
         <div class="col-sm-6 col-lg-3 isotope-item" data-filter="Type 2"> 
           <!-- Thumbnail Modern-->
           <article class="thumbnail thumbnail-modern block-1 hoverdir-item" data-hoverdir-target=".thumbnail-modern-caption">
-            <div class="thumbnail-modern-figure"><img src="images/b10.png" alt="" /></div>
+            <div class="thumbnail-modern-figure"><img src="images/b20.png" alt="" /></div>
             <div class="thumbnail-modern-caption">
-              <h6 class="thumbnail-modern-title">TRANSPORTE DE MATERIAL TIPO BALASTO DESDE EL NAIM, UBICADO EN TEXCOCO, ESTADO DE
-                MÉXICO HACIA LA ZONA DEL TREN MAYA.</h6>
+              <h6 class="thumbnail-modern-title">EXTRACCIÓN DE MATERIAL TIPO BALASTO.</h6>
             </div>
           </article>
         </div>
@@ -455,7 +454,7 @@
             </div>
           </article>
         </div>
-        <div class="col-sm-6 col-lg-3 isotope-item" data-filter="Type 3"> 
+        <div  class="col-sm-6 col-lg-3 isotope-item" data-filter="Type 3"> 
           <!-- Thumbnail Modern-->
           <article class="thumbnail thumbnail-modern block-1 hoverdir-item" data-hoverdir-target=".thumbnail-modern-caption">
             <div class="thumbnail-modern-figure"><img src="images/b9.png" alt="" /></div>
@@ -483,7 +482,7 @@
             <!--Bootstrap card-->
             <article class="card card-custom card-classic card-classic-2 wow fadeInLeft">
               <div class="card-header" role="tab">
-                <h6 class="card-title"><a id="accordion6-card-head-ckebbdjx" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-card-body-nqsdivvf" aria-controls="accordion6-card-body-nqsdivvf" aria-expanded="true" role="button">Obra civil. <span class="card-arrow"></span> </a></h6>
+                <h6 class="card-title"><a id="card-1" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-card-body-nqsdivvf" aria-controls="accordion6-card-body-nqsdivvf" aria-expanded="true" role="button">Obra civil. <span class="card-arrow"></span> </a></h6>
               </div>
               <div class="collapse show" id="accordion6-card-body-nqsdivvf" aria-labelledby="accordion6-card-head-ckebbdjx" data-parent="#accordion6" role="tabpanel">
                 <div class="card-body">
@@ -494,7 +493,7 @@
             <!--Bootstrap card-->
             <article class="card card-custom card-classic card-classic-2 wow fadeInLeft" data-wow-delay=".05s">
               <div class="card-header" role="tab">
-                <h6 class="card-title"><a class="collapsed" id="accordion6-card-head-sxpeyhxv" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-card-body-pclffkth" aria-controls="accordion6-card-body-pclffkth" aria-expanded="false" role="button">Maquinaria. <span class="card-arrow"></span> </a></h6>
+                <h6 class="card-title" ><a id="card-3" class="collapsed"   data-toggle="collapse" data-parent="#accordion6" href="#accordion6-card-body-pclffkth" aria-controls="accordion6-card-body-pclffkth" aria-expanded="false" role="button">Maquinaria. <span class="card-arrow"></span> </a></h6>
               </div>
               <div class="collapse" id="accordion6-card-body-pclffkth" aria-labelledby="accordion6-card-head-sxpeyhxv" data-parent="#accordion6" role="tabpanel">
                 <div class="card-body">
@@ -505,7 +504,7 @@
             <!--Bootstrap card-->
             <article class="card card-custom card-classic card-classic-2 wow fadeInLeft" data-wow-delay=".1s">
               <div class="card-header" role="tab">
-                <h6 class="card-title"><a class="collapsed" id="accordion6-card-head-iqdknafw" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-card-body-nwgfdwng" aria-controls="accordion6-card-body-nwgfdwng" aria-expanded="false" role="button">Mineria. <span class="card-arrow"></span> </a></h6>
+                <h6 class="card-title"><a id="card-2" class="collapsed" id="accordion6-card-head-iqdknafw" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-card-body-nwgfdwng" aria-controls="accordion6-card-body-nwgfdwng" aria-expanded="false" role="button">Mineria. <span class="card-arrow"></span> </a></h6>
               </div>
               <div class="collapse" id="accordion6-card-body-nwgfdwng" aria-labelledby="accordion6-card-head-iqdknafw" data-parent="#accordion6" role="tabpanel">
                 <div class="card-body">
@@ -513,9 +512,9 @@
               </div>
             </article>
             <!--Bootstrap card-->
-            <article class="card card-custom card-classic card-classic-2 wow fadeInLeft" data-wow-delay=".15s">
+            <article  class="card card-custom card-classic card-classic-2 wow fadeInLeft" data-wow-delay=".15s">
               <div class="card-header" role="tab">
-                <h6 class="card-title"><a class="collapsed" id="accordion6-card-head-miiayuqb" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-card-body-gqqphbuh" aria-controls="accordion6-card-body-gqqphbuh" aria-expanded="false" role="button">Comercializadora. <span class="card-arrow"></span> </a></h6>
+                <h6 class="card-title"><a id="card-4" class="collapsed"  data-toggle="collapse" data-parent="#accordion6" href="#accordion6-card-body-gqqphbuh" aria-controls="accordion6-card-body-gqqphbuh" aria-expanded="false" role="button">Comercializadora. <span class="card-arrow"></span> </a></h6>
               </div>
               <div class="collapse" id="accordion6-card-body-gqqphbuh" aria-labelledby="accordion6-card-head-miiayuqb" data-parent="#accordion6" role="tabpanel">
                 <div class="card-body">
@@ -695,6 +694,22 @@
     }
 </script>
 <script src="js/script.js"></script>
+<script>
+   function closeOpen(n) {
+    console.log(n)
+    // Obtener el card correspondiente al número
+    var card = document.querySelector('#card-'+n);
+    // Obtener el estado de la clase 'collapsed'
+    var isCollapsed = card.classList.contains('show');
+
+    // Si el card está colapsado, abrirlo
+    if (!isCollapsed) {
+      card.click()
+    } else { // Si el card está abierto, cerrarlo
+      card.click()
+    }
+  }
+</script>
 <script>
   document.getElementById("enviarCorreo").addEventListener("click", function() {
     var nombre = document.getElementById("nombre").value;
