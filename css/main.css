@@ -71,7 +71,7 @@ blockquote{padding-left:0; border-left:0}
 address{margin-top:0; margin-bottom:0}
 figure{margin-bottom:0}
 html p a:hover{text-decoration:none}
-body{font-family:'Open Sans', sans-serif; font-size:15px; line-height:1.6; font-weight:400; color:#777; background-color:rgba(255, 255, 255, 1); -webkit-text-size-adjust:none; -webkit-font-smoothing:subpixel-antialiased}
+body{font-family:'Open Sans', sans-serif; font-size:15px; line-height:1.6; font-weight:400; color:#777; background-color:rgba(0, 24, 108, 1); -webkit-text-size-adjust:none; -webkit-font-smoothing:subpixel-antialiased}
 .section-style-2{color:#151515; }
 h1, h2, h3, h4, h5, h6, [class^=heading-]{margin-top:0; margin-bottom:0; font-weight:600; text-transform:uppercase; color:#151515}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, [class^=heading-] a{color:inherit}
@@ -2909,7 +2909,7 @@ html.vanguard-navbar-fixed-linked .page{padding-top:56px}
 @media(min-width:1200px) {
 .vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-main{padding:35px 0}}
 .vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-panel{position:relative; display:flex; align-items:center}
-.vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-brand img{max-width:100px; max-height:100px}
+.vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-brand img{max-width:175px; max-height:100px}
 .vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-main-element{display:flex; align-items:center; justify-content:flex-end; padding:0 30px; flex-grow:1}
 @media(min-width:1600px) {
 .vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-main-element{padding-left:100px}}
