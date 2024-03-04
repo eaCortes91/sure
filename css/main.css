@@ -2909,7 +2909,7 @@ html.vanguard-navbar-fixed-linked .page{padding-top:56px}
 @media(min-width:1200px) {
 .vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-main{padding:35px 0}}
 .vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-panel{position:relative; display:flex; align-items:center}
-.vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-brand img{max-width:175px; max-height:100px}
+.vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-brand img{max-width:175px; max-height:121px}
 .vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-main-element{display:flex; align-items:center; justify-content:flex-end; padding:0 30px; flex-grow:1}
 @media(min-width:1600px) {
 .vanguard-navbar-corporate.vanguard-navbar-static .vanguard-navbar-main-element{padding-left:100px}}
